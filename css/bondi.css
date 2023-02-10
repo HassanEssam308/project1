@@ -1,0 +1,113 @@
+body{
+    font-family: "Roboto",sans-serif;
+}
+:root{
+    --dark-clor:#4d636f;
+    --green-clor:#33d1cc;
+    --red:#ff3150;
+    --yel:#ffc400;
+}
+/* strat navbar */
+.navbar{
+    color: white;
+    background-color: var(--dark-clor);
+}
+.navbar .logo {
+    color: white;
+ 
+    background-color: #313a3f;
+}
+
+.navbar .logo:hover
+{
+       cursor: pointer;
+       color: black;
+    background-color: rgb(182, 177, 177);
+}
+
+.navbar .navbar-nav .nav-link{
+    color: white;
+}
+
+
+.navbar .navbar-nav .nav-link:hover{
+    background-color: azure;
+    color: black;
+}
+
+.navbar .navbar-toggler{
+    color: white;
+    font-size: 25px;
+    border-color: white;
+}
+.navbar .navbar-toggler:focus{
+    box-shadow: none;
+}
+.navbar .navbar-toggler[aria-expanded="true"]{
+border-color: var(--green-clor);
+}
+.landing{
+    background-color: var(--dark-clor);
+    min-height: calc(100vh);
+}
+.main-btn {
+    background-color: var(--red);
+    color: var(--yel);
+    padding: 0.5rem 1rem;
+}
+/* end navbar */
+/*block2*/
+
+
+.nav .nav-item .nav-link{
+    color: white;
+   
+}
+.nav .nav-item .nav-link:hover{
+    background-color: burlywood;
+   
+}
+
+.block2{
+    background-color: rgb(127, 166, 168);
+  
+}
+.block4{
+    background-color: rgb(155, 178, 180);
+   
+  
+}
+.block3 .b1 span{
+    display: inline-block;
+    margin: 2px;
+    padding: 1px;
+    background-color: #313a3f;
+    color: white;
+
+}
+.block3 .b2 span{
+    display: inline-block;
+    margin: 1px;
+    padding: 1px;
+    background-color: gray;
+    color: white;
+
+}
+
+.mid .lnk{
+    width:100px;
+    border: 1px solid;
+
+
+}
+.col-2 .btn:hover{
+    background-color: darkgray;
+}
+.col-2 .btn1{
+    background-color: rgb(111, 189, 111);
+
+}
+.col-2 .btn2{
+    background-color: rgb(228, 66, 45);
+
+}
